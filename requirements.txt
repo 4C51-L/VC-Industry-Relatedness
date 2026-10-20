@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+networkx
+node2vec
+gensim
+scikit-learn
+umap-learn
+matplotlib
+statsmodels
+openpyxl
