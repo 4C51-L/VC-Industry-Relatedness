@@ -43,7 +43,31 @@ Examples of expected inputs include:
 - United States: `funding_rounds.csv`, `investors.csv`, `companies.csv`, `acquisitions.csv`, and classification/mapping CSV files.
 - Both: supplementary classification, validation, and model-control inputs, including `naics_structure.csv`, `trade_relatedness.csv`, `taxonomy_groups.csv`, and others referred to in the scripts.
 
-Because the raw and supplementary datasets are absent, the code **cannot reproduce all published findings from this archive alone**. Outputs are written beneath each country's `result/` directory when the necessary inputs are supplied.
+### Data Sources
+
+The venture capital investment data used in this study
+cover China and the United States during 1990–2020.
+
+- **China — Zero2IPO (PEdata / 清科私募通)**
+  - Website: https://max.pedata.cn/
+
+- **United States — Crunchbase**
+  - Website: https://www.crunchbase.com/
+
+### Data Availability
+
+The underlying venture capital investment datasets
+are not included in this repository.
+
+Researchers interested in reproducing the analysis
+may obtain the relevant data from the original
+providers, subject to their access requirements
+and licensing agreements.
+
+This repository provides the analysis scripts
+for constructing VC-revealed industry spaces,
+validating industry relatedness, and examining
+industrial diversification.
 
 ## Suggested execution order
 
@@ -69,6 +93,4 @@ For U.S. analyses, replace `china` with `us` in the commands. Some validation an
 
 If you use this software, please cite the associated research article. Add its final bibliographic details and DOI after publication.
 
-## License
 
-Add a `LICENSE` file before describing the repository as fully open-source. Choose a license only after confirming that all code owners agree and that none of the code is subject to third-party restrictions.
